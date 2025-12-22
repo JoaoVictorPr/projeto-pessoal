@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header h1 {
+    text-align: center;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header div img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: left;
+}
+
+header div p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
